@@ -38,7 +38,7 @@ box-shadow: 0px 5px 4px rgba(0, 94, 184, 0.25);
 }
 
 .search {
-  position: absolute;
+position: absolute;
 width: 216px;
 height: 38px;
 left: calc(50% - 216px/2);
@@ -49,6 +49,9 @@ border: 1px solid rgba(0, 94, 184, 0.25);
 box-sizing: border-box;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 9px;
+font-family: Raleway;
+padding-left: 15px;
+padding-right: 15px;
 }
 
 .BlitzBroadcast {
