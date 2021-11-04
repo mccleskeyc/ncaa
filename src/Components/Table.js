@@ -4,6 +4,7 @@ export class Table extends Component {
     render() {
         return (
             <div className="table-container">
+                <div className="HeadingText">Florida State University</div>
                 <table>
                     <thead>
                         <tr>
