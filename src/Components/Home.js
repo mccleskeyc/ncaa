@@ -4,12 +4,15 @@ export class Home extends Component {
     render() {
         return (
             <div>
+            
             <div className="BgBlock"></div>
+            
                 <div className="PickText">
-                    Pick Your Team:
-                    <input type="search" className="search"></input>
+
+                    <input type="search" className="search" placeholder="Enter Your Team's Name"></input>
                     
                     <div className="randomizer">
+                    <br />
                     <br />
                     <br />
                         Or, <a href="#">pick a random team</a>.
