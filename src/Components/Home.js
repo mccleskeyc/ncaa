@@ -4,15 +4,13 @@ export class Home extends Component {
     render() {
         return (
             <div>
-            
             <div className="BgBlock"></div>
-            
-                <div className="PickText">
+
+                <div className="PickText"> Welcome to Broadcast Blitz!
 
                     <input type="search" className="search" placeholder="Enter Your Team's Name"></input>
                     
                     <div className="randomizer">
-                    <br />
                     <br />
                     <br />
                         Or, <a href="#">pick a random team</a>.
