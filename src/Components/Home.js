@@ -8,10 +8,12 @@ export class Home extends Component {
                 <div className="PickText">
                     Pick Your Team:
                     <input type="search" className="search"></input>
+                    
+                    <div className="randomizer">
                     <br />
                     <br />
-                    <br />
-                    Or, <a href="#">pick a random team</a>.
+                        Or, <a href="#">pick a random team</a>.
+                    </div>
                 </div>
         </div>
         )
