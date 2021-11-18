@@ -102,3 +102,7 @@ color: #FFFFFF;
   text-align: center;
   color: #000000;
 }
+
+table, th, td {
+  border: 1px solid black;
+}

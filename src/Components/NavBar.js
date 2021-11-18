@@ -4,7 +4,7 @@ export class NavBar extends Component {
     render() {
         return (
             <div className="NavBar">
-                <div className="BlitzBroadcast">Blitz Broadcast</div>
+                <div className="BlitzBroadcast">Broadcast Blitz</div>
             </div>
         )
     }
