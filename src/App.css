@@ -120,3 +120,18 @@ th {
   font-size:medium;
   color: #000000;
 }
+
+.button {
+  background-color: #005EB8;
+  color: white;
+  padding: .5rem 1rem;
+  border: 1px solid #005EB8;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 250ms;
+}
+
+.button:hover {
+  background-color: rgba(0,0,0,0.85);
+}

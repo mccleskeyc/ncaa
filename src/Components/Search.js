@@ -15,7 +15,6 @@ export class Search extends Component {
         </form>
 
             
-                {/* <input type="search" className="search" placeholder="Enter Your Team's Name"></input> */}
             </div>
         )
     }
