@@ -12,7 +12,7 @@ export class Home extends Component {
                     <Search />
                     <div className="randomizer">
 
-                        Or, <a href="#">pick a random team</a>.
+                        Or, <a href="#" className="random-text">pick a random team</a>.
                     </div>
                 </div>
         </div>
