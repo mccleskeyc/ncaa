@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import Search from './Search'
 export class Home extends Component {
     render() {
         return (
@@ -8,11 +8,10 @@ export class Home extends Component {
 
                 <div className="PickText"> Welcome to Broadcast Blitz!
 
-                    <input type="search" className="search" placeholder="Enter Your Team's Name"></input>
                     
+                    <Search />
                     <div className="randomizer">
-                    <br />
-                    <br />
+
                         Or, <a href="#">pick a random team</a>.
                     </div>
                 </div>
